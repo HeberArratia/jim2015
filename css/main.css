@@ -7,6 +7,8 @@ body{
   background: #fff;
 }
 
+html {background-attachment: fixed}
+
 /********* HEADER *********/
 
 header #menu-head {
