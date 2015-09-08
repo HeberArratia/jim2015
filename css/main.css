@@ -7,6 +7,8 @@ body{
   background: #fff;
 }
 
+
+
 /********* HEADER *********/
 
 header #menu-head {
@@ -51,7 +53,6 @@ header #menu-head  nav ul li a{
 #banner{
   background-image: url("../img/banner.jpg");
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100%;
   -moz-background-size: cover;
@@ -124,7 +125,6 @@ header #menu-head  nav ul li a{
 #redes-sociales{
   background-image: url("../img/fiesta.gif");
   background-position: center center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -webkit-background-size: cover;
@@ -364,7 +364,7 @@ footer p{
   
 }
 
-/* ajustes */
+/* ajustes para smartphones basicos */
 @media screen and (max-width: 455px){
   #banner{
       height: 300px;
