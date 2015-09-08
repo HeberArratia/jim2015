@@ -89,6 +89,11 @@ header #menu-head  nav ul li a{
 
 /********* INFO *********/
 
+#info-jim{
+  background: white;
+  z-index: 10;
+}
+
 #info-jim .grupo{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -160,9 +165,10 @@ header #menu-head  nav ul li a{
 #redes-sociales #text{
   color: white;
   font-family: 'Lato', sans-serif;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 83px;
+  padding-bottom: 83px;
 }
+
 
 /********* Noticias *********/
 #noticias{
@@ -243,6 +249,7 @@ footer{
   padding: 70px;
   margin: 0;
   background: #298097;
+  background-image: url("../img/back.png");
   color: white;
 }
 
@@ -269,6 +276,16 @@ footer #redes-footer a:hover{
   transition: all .3s ease-out;
   color: #fff;
 }
+
+/*#redes-sociales .icon-facebook:hover:before{
+  background: #3B5998;
+  border:#3B5998;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  color: #fff;
+}*/
 
 footer #redes-footer .icon-facebook:hover{
   background: #3B5998;
@@ -297,7 +314,7 @@ footer p{
 }
 
 /********* GENERALES *********/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 820px) {
 
   .hvr-float {
     display: inline-block;

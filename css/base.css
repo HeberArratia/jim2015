@@ -169,6 +169,7 @@ footer{
   padding: 44px;
   margin: 0;
   background: #298097;
+  background-image: url("../img/back.png");
   color: white;
 }
 
@@ -223,7 +224,7 @@ footer p{
 }
 
 /********* GENERALES *********/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 820px) {
 
   .hvr-float {
     display: inline-block;
@@ -263,7 +264,7 @@ footer p{
 }
 
 #espacio-menu{
-  height: 85.8167px;
+  height: 68px;
   background-color: #fff;
 }
 
